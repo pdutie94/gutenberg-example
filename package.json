@@ -1,0 +1,47 @@
+{
+  "name": "gutenberg-example",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/blocks": "^6.5.0",
+    "@wordpress/i18n": "^3.6.0",
+    "jquery": "^3.4.1",
+    "jshint": "^2.10.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@wordpress/browserslist-config": "^2.6.0",
+    "@wordpress/components": "^8.1.0",
+    "@wordpress/editor": "^9.5.0",
+    "@wordpress/element": "^2.7.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "browserslist": "^4.6.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ]
+}

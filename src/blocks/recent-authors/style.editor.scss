@@ -1,0 +1,25 @@
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors {
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors .gexample-recent-author-item {
+    margin: 0 10px;
+    pointer-events: all;
+}
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors.columns-1 .gexample-recent-author-item {
+    width: calc(100% - 20px);
+}
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors.columns-2 .gexample-recent-author-item {
+    width: calc(50% - 20px);
+}
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors.columns-3 .gexample-recent-author-item {
+    width: calc(100% / 3 - 20px);
+}
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors.columns-4 .gexample-recent-author-item {
+    width: calc(25% - 20px);
+}
+
+.wp-block-gutenberg-example-recent-authors .gexample-recent-authors .gexample-recent-author-item .gexample-recent-author-avatar img {
+    vertical-align: top;
+}
