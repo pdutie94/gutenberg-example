@@ -12,7 +12,7 @@
   "dependencies": {
     "@wordpress/blocks": "^6.5.0",
     "@wordpress/i18n": "^3.6.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jshint": "^2.10.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
